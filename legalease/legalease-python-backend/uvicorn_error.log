@@ -1,0 +1,76 @@
+﻿uvicorn : INFO:     
+Will watch for changes 
+in these directories: ['
+C:\\Users\\chinm\\Downlo
+ads\\legalease\\legaleas
+e\\legalease_v2_login_si
+gnup\\legalease_v2\\lega
+lease_v2\\legalease\\leg
+alease-python-backend']
+At line:1 char:1
++ uvicorn main:app 
+--reload --port 8000 
+*>&1 | Out-File 
+-FilePath uvico ...
++ ~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo      
+        : NotSpecified: 
+(INF    O:     Will 
+...ython-b    
+ackend']:String) [], R  
+  emoteException
+    + 
+FullyQualifiedErrorI    
+d : NativeCommandError
+ 
+INFO:     Uvicorn 
+running on 
+http://127.0.0.1:8000 
+(Press CTRL+C to quit)
+INFO:     Started 
+reloader process 
+[13664] using StatReload
+C:\Users\chinm\Downloads
+\legalease\legalease\leg
+alease_v2_login_signup\l
+egalease_v2\legalease_v2
+\legalease\legalease-pyt
+hon-backend\lib\gemini.p
+y:24: FutureWarning: 
+
+All support for the 
+`google.generativeai` 
+package has ended. It 
+will no longer be 
+receiving 
+updates or bug fixes. 
+Please switch to the 
+`google.genai` package 
+as soon as possible.
+See README for more 
+details:
+
+https://github.com/googl
+e-gemini/deprecated-gene
+rative-ai-python/blob/ma
+in/README.md
+
+  import 
+google.generativeai as 
+genai
+INFO:     Started 
+server process [17972]
+INFO:     Waiting for 
+application startup.
+INFO:     Application 
+startup complete.
+invalid pdf header: 
+b'fake '
+EOF marker not found
+[upload] Unexpected error: Stream has ended unexpectedly
+INFO:     127.0.0.1:59996 - "POST /api/cases/upload HTTP/1.1" 500 Internal Server Error
+WARNING:  StatReload 
+detected changes in 
+'lib\gemini.py'. 
+Reloading...
